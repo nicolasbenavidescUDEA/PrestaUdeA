@@ -244,6 +244,123 @@ Mano de obra estimada| $372.550 COP
 Resumen financiero
 
 Concepto| Valor (COP)
+'''
+ **Plan de Versionado**
+'''
+
+# ==============================================================================
+# 8. PLAN DE VERSIONADO — PRESTAUDEA
+# ==============================================================================
+# En cumplimiento con los requerimientos del Trabajo Final de Algoritmia y
+# Programación de la Universidad de Antioquia (Profesora Cindy Estrada).
+#
+# Este módulo documenta el avance incremental del software y sus procedimientos
+# relevantes medidos en días transcurridos desde el inicio del proyecto.
+# Metodología de control de versiones adoptada: Semantic Versioning (vMAJOR.MINOR.PATCH)
+# ==============================================================================
+
+HISTORIAL_VERSIONES = [
+    {
+        "version": "v0.1.0",
+        "dia": 2,
+        "componente": "Estructura base y Persistencia",
+        "descripcion": "Inicialización del repositorio de GitHub. Creación de 'persistencia.py' y configuración del almacenamiento plano en formato JSON para usuarios, ítems, préstamos, devoluciones, ventas y auditoría."
+    },
+    {
+        "version": "v0.2.0",
+        "dia": 5,
+        "componente": "Modelado de Objetos Base",
+        "descripcion": "Construcción e implementación de las clases orientadas a objetos fundamentales: 'clsUsuarios.py', 'item.py' y 'clsPrestamo.py', incluyendo sus métodos de conversión '.to_dict()'."
+    },
+    {
+        "version": "v0.3.0",
+        "dia": 8,
+        "componente": "Módulo de Validaciones",
+        "descripcion": "Desarrollo del archivo 'validaciones.py'. Integración de expresiones regulares para la verificación estricta de entradas (correos, nombres, documentos, precios y la lógica de estados cualitativos simples)."
+    },
+    {
+        "version": "v0.4.0",
+        "dia": 12,
+        "componente": "Menú Principal y Gestión de Usuarios",
+        "descripcion": "Ensamblaje del punto de entrada en 'main.py'. Diseño del menú interactivo de consola y programación de las funciones lógicas para registrar y listar usuarios."
+    },
+    {
+        "version": "v0.5.0",
+        "dia": 15,
+        "componente": "Control de Inventario (Ítems)",
+        "descripcion": "Implementación de funciones para creación, categorización y listado de ítems, enlazando la generación automatizada de prefijos correlativos (VID, LIB, HER, etc.) en 'utilidades.py'."
+    },
+    {
+        "version": "v0.6.0",
+        "dia": 19,
+        "componente": "Motor de Préstamos y Retornos",
+        "descripcion": "Incorporación de la lógica central de transacciones. Registro de préstamos calculando fechas de salida y de retorno pactadas. Operación de devoluciones y actualización de disponibilidad en tiempo real."
+    },
+    {
+        "version": "v0.7.0",
+        "dia": 23,
+        "componente": "Gestión de Certificados y Auditoría",
+        "descripcion": "Automatización del sistema de salida de archivos físicos. Programación del generador de certificados de devolución en formato '.txt' guardados en 'certificados/' y registro de operaciones en 'auditoria.json'."
+    },
+    {
+        "version": "v0.8.0",
+        "dia": 26,
+        "componente": "Lógica de Venta por Mora",
+        "descripcion": "Adición de la regla de negocio crítica: automatización de conversión de estados a 'vendido' para préstamos con mora superior a 30 días, incluyendo el cálculo e impresión de facturas con el recargo impositivo del 23%."
+    },
+    {
+        "version": "v0.9.0",
+        "dia": 29,
+        "componente": "Reportes Administrativos y CSV",
+        "descripcion": "Integración de funciones de control de acceso de administrador ('admin'/'1234'). Desarrollo de 'reportes.py' para métricas de uso en consola y la exportación ordenada de préstamos activos a CSV."
+    },
+    {
+        "version": "v1.0.0",
+        "dia": 32,
+        "componente": "Estabilización y Entrega Final",
+        "descripcion": "Pruebas de integración de extremo a extremo, depuración de errores de flujo de consola, refinamiento estético de los menús y redacción exhaustiva del 'README.md' junto al manual de usuario final."
+    }
+]
+
+def mostrar_plan_versionado():
+    """
+    Función utilitaria opcional por si deseas imprimir el historial
+    de avance del software directamente desde el menú del administrador.
+    """
+    print("\n=========================================================")
+    print("         8. PLAN DE VERSIONADO — PRESTAUDEA             ")
+    print("=========================================================")
+    for v in HISTORIAL_VERSIONES:
+        print(f"Versión: {v['version']} (Día {v['dia']})")
+        print(f"Componente: {v['componente']}")
+        print(f"Avance: {v['descripcion']}\n---")
+
+'''
+# ==============================================================================
+# RESUMEN METODOLÓGICO DE HITOS DE AVANCE
+# ==============================================================================
+# 1. FASE INICIAL (Días 1 a 10) - Fundamentos del Sistema:
+#    El enfoque inicial fue garantizar la persistencia de datos requerida para el
+#    problema de 'MJ'. Se estructuró el almacenamiento JSON para evitar la pérdida
+#    de información y se blindó la aplicación mediante validaciones de tipos de datos.
+#
+# 2. FASE INTERMEDIA (Días 11 a 22) - Lógica de Negocio y Transaccionalidad:
+#    El software evolucionó hacia una herramienta interactiva mediante menús de consola.
+#    Se integraron las entidades permitiendo que los usuarios hicieran préstamos y
+#    afectaran la disponibilidad de inventario en tiempo real.
+#
+# 3. FASE AVANZADA (Días 23 a 32) - Automatización, Reportes y Cierre:
+#    El tramo final se centró en resolver las penalizaciones por mora superiores a un mes
+#    (facturas con impuesto por conchudez) y en proporcionar valor administrativo
+#    mediante reportes en consola y exportación de hojas de cálculo legibles (CSV).
+# ==============================================================================
+'''
+
+
+
+
+
+
 Mano de obra práctica estudiantil| $372.550
 Herramientas de desarrollo| $0
 Licenciamiento| $0
