@@ -32,7 +32,7 @@ Para ejecutar correctamente el sistema se recomienda disponer de:
 El proyecto está organizado en carpetas que separan el código fuente, la documentación y los datos persistentes del sistema. 
 
 ```text
-PrestaUdeA_Completo2/
+PrestaUdeA_Completo/
 ├── data/
 ├── doc/
 └── src/
