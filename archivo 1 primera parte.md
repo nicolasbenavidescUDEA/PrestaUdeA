@@ -247,41 +247,5 @@ Concepto| Valor (COP)
 Mano de obra práctica estudiantil| $372.550
 Herramientas de desarrollo| $0
 Licenciamiento| $0
-'''
- **Plan de Versionado**
-'''
-
-# ==============================================================================
-# 8. PLAN DE VERSIONADO — PRESTAUDEA
-# ==============================================================================
-# En cumplimiento con los requerimientos del Trabajo Final de Algoritmia y
-# Programación de la Universidad de Antioquia (Profesora Cindy Estrada).
-#
-# Este módulo documenta el avance incremental del software y sus procedimientos
-# relevantes medidos en días transcurridos desde el inicio del proyecto.
-# Metodología de control de versiones adoptada: Semantic Versioning (vMAJOR.MINOR.PATCH)
-# ==============================================================================
-
-
-'''
-# ==============================================================================
-# RESUMEN METODOLÓGICO DE HITOS DE AVANCE
-# ==============================================================================
-# 1. FASE INICIAL (Días 1 a 10) - Fundamentos del Sistema:
-#    El enfoque inicial fue garantizar la persistencia de datos requerida para el
-#    problema de 'MJ'. Se estructuró el almacenamiento JSON para evitar la pérdida
-#    de información y se blindó la aplicación mediante validaciones de tipos de datos.
-#
-# 2. FASE INTERMEDIA (Días 11 a 22) - Lógica de Negocio y Transaccionalidad:
-#    El software evolucionó hacia una herramienta interactiva mediante menús de consola.
-#    Se integraron las entidades permitiendo que los usuarios hicieran préstamos y
-#    afectaran la disponibilidad de inventario en tiempo real.
-#
-# 3. FASE AVANZADA (Días 23 a 32) - Automatización, Reportes y Cierre:
-#    El tramo final se centró en resolver las penalizaciones por mora superiores a un mes
-#    (facturas con impuesto por conchudez) y en proporcionar valor administrativo
-#    mediante reportes en consola y exportación de hojas de cálculo legibles (CSV).
-# ==============================================================================
-'''
 Infraestructura| $0
 Costo Total del Proyecto| $372.550
