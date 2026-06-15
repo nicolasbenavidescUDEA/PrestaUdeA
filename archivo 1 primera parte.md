@@ -244,6 +244,9 @@ Mano de obra estimada| $372.550 COP
 Resumen financiero
 
 Concepto| Valor (COP)
+Mano de obra práctica estudiantil| $372.550
+Herramientas de desarrollo| $0
+Licenciamiento| $0
 '''
  **Plan de Versionado**
 '''
@@ -355,14 +358,5 @@ def mostrar_plan_versionado():
 #    mediante reportes en consola y exportación de hojas de cálculo legibles (CSV).
 # ==============================================================================
 '''
-
-
-
-
-
-
-Mano de obra práctica estudiantil| $372.550
-Herramientas de desarrollo| $0
-Licenciamiento| $0
 Infraestructura| $0
 Costo Total del Proyecto| $372.550
