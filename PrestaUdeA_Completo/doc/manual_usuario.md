@@ -1,17 +1,39 @@
-# Manual de Usuario - PrestaUdeA
+# Manual de Usuario  
+## PrestaUdeA - Sistema Inteligente de Gestión de Inventario y Préstamos
 
-## Ingreso al sistema
-Ejecute `main.py` desde la carpeta `src`.
+---
 
-## Funciones principales
-- Registrar usuarios.
-- Registrar ítems.
-- Registrar préstamos.
-- Registrar devoluciones y generar certificados.
-- Generar ventas automáticas por mora superior a 30 días.
-- Consultar reportes administrativos.
-- Exportar reporte CSV de préstamos activos ordenados por días.
+## 1. Introducción
 
-## Credenciales de administrador
-- Usuario: admin
-- Contraseña: 1234
+**PrestaUdeA** es una aplicación desarrollada en Python con interfaz de consola, diseñada para facilitar la gestión de inventario, préstamos, devoluciones, ventas y reportes administrativos. Su objetivo es organizar el control de los artículos registrados en el sistema, permitiendo almacenar y consultar información de manera estructurada. [file:55]
+
+Este manual explica el uso general del sistema, el flujo básico de interacción y las funcionalidades principales disponibles para el usuario y el administrador. [file:55]
+
+---
+
+## 2. Objetivo del sistema
+
+El sistema permite gestionar préstamos de artículos mediante una aplicación de consola, registrando usuarios, ítems, préstamos, devoluciones y ventas, además de conservar la información en archivos para su posterior consulta y administración. [file:55]
+
+---
+
+## 3. Requisitos para su ejecución
+
+Para ejecutar correctamente el sistema se recomienda disponer de:
+
+- Python 3.10 o superior.
+- Un equipo con sistema operativo Windows, Linux o macOS.
+- Un editor o entorno de desarrollo como Visual Studio Code o Visual Studio.
+- Acceso a la carpeta del proyecto con su estructura completa. [file:55]
+
+---
+
+## 4. Estructura general del proyecto
+
+El proyecto está organizado en carpetas que separan el código fuente, la documentación y los datos persistentes del sistema. [file:55]
+
+```text
+PrestaUdeA_Completo2/
+├── data/
+├── doc/
+└── src/
