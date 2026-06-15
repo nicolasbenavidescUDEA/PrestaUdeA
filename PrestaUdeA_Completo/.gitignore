@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+git rm -r --cached src/__pycache__
+git add .gitignore
+git add .
+git commit -m "Agrego gitignore y excluyo archivos de caché de Python"
+git push
